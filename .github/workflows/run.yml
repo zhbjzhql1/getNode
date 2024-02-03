@@ -20,8 +20,8 @@ jobs:
           sh ./run.sh
       - name: Commit Changes
         run: |
-         git config --global user.email flik@92coco.cn
-         git config --global user.name Flik
+         git config --global user.email zhbjzhql@qq.com
+         git config --global user.name zhbjzhql1
          git add .
          git commit -m"由github actions推送,日期:`date`"
          git pull --rebase
